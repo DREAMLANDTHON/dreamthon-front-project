@@ -1,10 +1,39 @@
+:root {
+  /* App Colors */
+  --color-primary: var(--color-chinese-black);
+  --color-primary-variant: var(--color-aquamarine);
+
+  --color-bg: var(--color-chinese-black);
+  --color-text: var(--color-white);
+  --color-accent: var(--color-french-violet);
+
+  /* Colors */
+  --color-chinese-black: #110523;
+  --color-deep-violet: #260052;
+  --color-french-violet: #6605DA;
+  --color-aquamarine: #76FFB7;
+  --color-white: #ffffff;
+}
+
 body {
+  background-color: var(--color-bg);
   margin: 0;
+  width: 100vw;
+  height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 code {

@@ -1,0 +1,82 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatting {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: visible;
+    /*max-width: 100vw;*/
+}
+
+.question {
+    color: white;
+}
+
+.answer {
+    background-color: var(--color-deep-violet);
+    color: var(--color-primary-variant);
+}
+
+.inputarea {
+    background-color: var(--color-deep-violet);
+    flex-basis: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.btn1 {
+    color: var(--color-white);
+    font-size: 25px;
+    height: 0;
+    /*position: absolute;*/
+    /*top: 30%;*/
+    /*right: 10%;*/
+}
+
+.chatdetail {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 300px;
+    min-height: 150px;
+    position: relative;
+}
+
+.profilearea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    position: absolute;
+    left: 5%;
+
+}
+
+.nickname {
+    margin-top: 0px;
+}
+
+.chatcontent {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    left: 13%;
+    top: 30%;
+    word-break:break-all;
+    white-space: pre-wrap;
+    display: inline-block;
+}
+
+.iimg {
+    position: relative;
+    margin: 0;
+    left: 0%;
+}

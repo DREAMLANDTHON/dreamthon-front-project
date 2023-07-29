@@ -1,0 +1,8 @@
+.button {
+    background-color: var(--color-aquamarine);
+    height: 45px;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
